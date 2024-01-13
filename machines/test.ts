@@ -1,3 +1,6 @@
 import { createMachine } from "xstate";
 
-const machine = createMachine({});
+const machine = createMachine({
+/** @xstate-layout N4IgpgJg5mDOIC5QBEwCMD2BXAdgYwEscoA6ASQgBswBiPSgvAawG0AGAXUVAAcNYCAFwIYc3EAA9EARgDMAdhLSAnKuUA2ZQBYAHACYtevQBoQAT0T6Sytjtmy9+rfLYvZAX3enUmXIWIkPtj4RFA0ErCCAIaCYCRRAGaxAE4AFACsbGwAlDRBfqGB6MH+UOxcSCB8AsKi4lIIcooqapq6BkamFo3y6iTpnt7FBQH5IcR0DMzl4tVCImKVDY7pJLKusulysurresqyXYgAtNJaJGzK6XrSjsryepcO8p5eIDgYEHDiY6Wz-PM6ktEGwjghjso9P0NHZ1DotrIVI5BiBfoUKNR-jUFvVELowfIdP0UWjRsNxlAsYDFqBlulmmoNNonJ1zIhetZbPZHAYXG5Xu4gA */
+  id: "Debouncing"
+});
