@@ -1,3 +1,5 @@
 import { createMachine } from "xstate";
 
-const machine = createMachine({});
+const machine = createMachine({
+    id: "Test"
+});
